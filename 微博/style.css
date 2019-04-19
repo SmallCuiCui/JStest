@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #333333;
+}
+.box{
+	width: 800px;
+	margin: 50px auto;
+}
+.box a{
+	display: block;
+	width: 250px;
+	height: 80px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	text-align: center;
+	color: red;
+	margin: 20px auto;
+	border:1px solid #cccccc;
+}
+.box a span{
+	font-size: 40px;
+	margin-top: -5px;
+	color: red;
+	vertical-align: center
+}
+.box ul{
+	list-style: none;
+	width: 100%;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	border:1px solid #cccccc;
+
+}
+.box ul li{
+	width: 100%;
+	border:1px solid #cccccc;
+	margin-bottom: 20px;
+}
+.box ul li h3{
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #cccccc;
+	cursor: pointer;
+}
+.box ul li h3 span{
+	float: right;
+}
+.box ul li div{
+	padding: 20px;
+	height: 100px;
+}
+.box ul li .youBtn{
+	position: fixed;
+	display: none;
+	padding: 0;
+	width: 80px;
+	height: 60px;
+	border:1px solid #cccccc;
+	border-bottom: none;
+}
+.box ul li .youBtn a{
+	display: block;
+	margin: 0;
+	font-size: 14px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border:none;
+	border-bottom: 1px solid #cccccc;
+	color: #333333;
+	text-align: center;
+}
+.box ul li .youBtn a:hover{
+	background-color: rgba(0,0,0,.3);
+	color: white;
+}
+.container{
+	width: 400px;
+	margin: 0 auto;
+	display: none;
+	background-color: white;
+	border: 1px solid #cccccc;
+	z-index: 20;
+	position: relative;
+}
+.container .closeBtn{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	color: black;
+	font-size: 18px;
+}
+.container h4{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	background-color: #cccccc;
+	box-sizing: border-box;
+
+}
+.container p{
+	padding-top: 20px;
+	padding-left: 10px; 
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+}
+.container p label{
+	overflow: hidden;
+}
+.container p label input{
+	float: right;
+	width: 300px;
+	height: 30px;
+	border:1px solid #cccccc;
+	border-right: none;
+}
+.container p label textarea{
+	float: right;
+	width: 300px;
+	height: 200px;
+	border:1px solid #cccccc;
+	border-right: none;
+}
+.container p button{
+	cursor: pointer;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border:1px solid #cccccc;
+}
+.model{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: rgba(0,0,0,.3);
+}
