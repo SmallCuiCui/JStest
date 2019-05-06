@@ -31,7 +31,6 @@ class Lunbo{
 	}
 
 	linksClick(item){
-		console.log(item.innerHTML);
 		this.index = item.innerHTML - 1;
 		this.changeImg();
 	}
@@ -62,8 +61,9 @@ class Lunbo{
 			item.style.transition = 'none';
 		})
 
-		this.imgs[this.preIndex].transition = 'all 1s';
-		this.imgs[this.index].transition = 'all 1s';
+		this.imgs[this.preIndex].style.transition = 'all 1s';
+		this.imgs[this.index].style.transition = 'all 1s';
+		// console.log(this.imgs[this.index])
 
 		this.links[this.preIndex].className = '';
 		this.links[this.index].className = 'ac';

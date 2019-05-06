@@ -1,0 +1,18 @@
+.box{
+	width: 30%;
+	margin: 100px auto;
+}
+.box h5{
+	line-height: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+.box .login-btn{
+	display: block;
+	margin: 40px auto;
+	letter-spacing: 3px;
+	padding: 10px 30px;
+}
+.form-message{
+	margin-left: 20px;
+}
